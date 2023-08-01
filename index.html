@@ -9,183 +9,149 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Rajdhani&family=Roboto&display=swap" rel="stylesheet">
-    <!--<style>
-      ::-webkit-scrollbar {
-        display: none;
-        visibility: hidden;
-        opacity: 0
-}
-    </style>-->
-</head>
+    <link rel="icon" href="images/favi.png" type="image/x-icon" />
+    <link rel="stylesheet" href="index.css">
+ 
+  </head>
 <body class="bg-dark ">
 <!--Navigation-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark pl-5">
-      <div><img src="images/logo.png" width="224px" height="54px"> </div>
-        <div class="container-fluid"><a class="navbar-brand" href="index.html" style="font-family: 'Pacifico', sans-serif;"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div><a href="index.html"><img src="images/logo.png" class="ms-4" width="224px" height="54px"> </a></div>
+      <div class="container-fluid"><a class="navbar-brand" href="index.html" style="font-family: 'Pacifico', sans-serif;"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
           <div class="collapse navbar-collapse" id="navbarRightAlignExample">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+              <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Ana Sayfa</a></li>
               <li class="nav-item"><a class="nav-link" href="samanyolu.html">Samanyolu Galaksi</a></li>
-              <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
+              <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Uzay Boşluğu</a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Galaksiler</a></li>
+                  <li><a class="dropdown-item" href="#">Galeri</a></li>
                   <li><hr class="dropdown-divider"></li>
                   <li><a class="dropdown-item" href="#">Something else here</a></li>
                 </ul>
               </li>
             </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          </div>
-        </div>
-    </nav>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+      </div>
+    </div>
+  </nav>
 <!--/Navigation-->
 <!--image-->
-
-
-  <!-- Background image -->
   <div
     class=" text-center bg-image"
     style="
       background-image: url(images/slide3.jpg);
+      background-repeat: no-repeat;
       height: 855px;
       margin-top: 0px;
     ">
     <div class="mask" style="background-color: rgba(0, 0, 0, 0.3); height: 855px;">
       <div class="d-flex justify-content-center align-items-center h-50">
-        <div class="text-white">
-          <h1 class="mb-1"></h1>
-          <i class="fa-solid fa-chevron-down fa-bounce fa-lg" style="color: #ffffff;"></i>
+        <div class="text-white"><br><br>
+          <h1>Hello, Welcome</h1>
+          <p class="subtitle">to Universe</p>
         </div>
       </div>
     </div>
   </div>
-  <!-- Background image -->
+<!--/image-->
 
-<!--image-->
-<!--Slider
-<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="images/slide1.jpg" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="images/slide2.jpg" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="images/slide3.jpg" class="d-block w-100" alt="...">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-Slider-->
-
-<div></div>
-  <div class="card mb-3 mt-4 bg-secondary" style="max-width: 1540px; height: 500px; margin-left: 200px;">
+  <div class="card mb-2 mt-5 p-1 bg-secondary" style="max-width: 1540px; height: 300px; margin-left: 200px;">
     <div class="row g-0">
       <div class="col-md-4">
-        <img src="images/samanyolu1.jpg"  class="img-fluid rounded-start" alt="...">
+        <img src="images/samanyollu.jpg"  class="img-fluid rounded-start" alt="samanyolu galaksisi">
       </div>
-      <div class="col-md-8">
+      <div class="col-md-8 text-center text-white ">
         <div class="card-body">
-          <h5 class="card-title">Galaksimiz</h5>
-          <p class="card-text">Samanyolu veya Kehkeşan, Güneş Sistemi'ni içeren bir galaksidir. Yerel Küme'nin bir parçası olan çubuklu sarmal türdedir.</p><p>lorem100</p>
-          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+          <h3 class="card-title" ><br><b>Galaksimiz</b></h3>
+          <h6 class="card-text">Samanyolu veya Kehkeşan, Güneş Sistemi'ni içeren bir galaksidir. Dünya'dan görünümünü açıklayan tanımıyla: gece gökyüzünde görülen ve çıplak gözle tek tek ayırt edilemeyen yıldızlardan oluşan puslu bir ışık şerididir. Yerel Küme'nin bir parçası olan çubuklu sarmal türdedir.  </h6>
+          <h6>Gözlemlenebilir evrende bulunan sayısız galaksiden sadece bir tanesidir.</h6>
+          <br>
+          <a href="samanyolu.html" class="btn btn-dark">Go somewhere</a>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="row row-cols-1 row-cols-md-3 g-4 mt-3 mb-3" style="margin-left: 5px;">
-    <div class="col">
-      <div class="card">
-        <img src="images/samanyolu1.jpg" height="382px" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Galaksimiz</h5>
-          <p class="card-text">Samanyolu veya Kehkeşan, Güneş Sistemi'ni içeren bir galaksidir. Yerel Küme'nin bir parçası olan çubuklu sarmal türdedir.</p>
-          <a href="samanyolu.html" class="btn btn-primary">Uçuş Vakti</a>
+  <div class="d-flex flex-wrap justify-content-between mt-2 p-5 " >
+    <div class="col text-center m-3 ">
+      <div class="card h-100">
+        <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp" class="card-img-top" alt="Hollywood Sign on The Hill"/>
+        <div class="card-body ">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            This is a longer card with supporting text below as a natural lead-in to
+            additional content. This content is a little bit longer.
+          </p>
+          <a href="#" class="btn btn-dark">Go somewhere</a>
         </div>
       </div>
     </div>
-
-    <div class="col">
-      <div class="card">
-        <img src="images/andromeda.jpg" class="card-img-top" alt="...">
+    <div class="col text-center m-3">
+      <div class="card h-100">
+        <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/042.webp" class="card-img-top" alt="Palm Springs Road"/>
         <div class="card-body">
-          <h5 class="card-title">Andromeda Galaksi</h5>
-          <p class="card-text">Andromeda'nın bir diğer özelliği ise çıplak göz ile Dünya'dan görülebilen en uzak gök cismi olmasıdır. Ayrıca Samanyolu'na en yakın büyük galaksidir.</p>
-          <a href="#" class="btn btn-primary">Uçuş Vakti</a>
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a short card.</p>
+          <a href="#" class="btn btn-dark">Go somewhere</a>
         </div>
       </div>
     </div>
-
-    <div class="col">
-      <div class="card">
-        <img src="..." class="card-img-top" alt="...">
+    <div class="col text-center m-3">
+      <div class="card h-100">
+        <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/043.webp" class="card-img-top" alt="Los Angeles Skyscrapers"/>
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
           <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-          <a href="#" class="btn btn-primary">Uçuş Vakti</a>
+          <a href="#" class="btn btn-dark">Go somewhere</a>
         </div>
       </div>
     </div>
+  </div>
 
-    <div class="col">
-        <div class="card">
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" class="btn btn-primary">Uçuş Vakti</a>
-          </div>
-        </div>
-      </div>
-
-    <div class="col">
-      <div class="card">
-        <img src="..." class="card-img-top" alt="...">
+  <div class="d-flex flex-wrap justify-content-between mb-3 p-5" >
+    <div class="col text-center m-3">
+      <div class="card h-100">
+        <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp" class="card-img-top" alt="Hollywood Sign on The Hill"/>
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          <a href="#" class="btn btn-primary">Uçuş Vakti</a>
+          <p class="card-text">
+            This is a longer card with supporting text below as a natural lead-in to
+            additional content. This content is a little bit longer.
+          </p>
+          <a href="#" class="btn btn-dark">Go somewhere</a>
         </div>
       </div>
     </div>
-
-    <div class="col">
-        <div class="card">
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <a href="#" class="btn btn-primary">Uçuş Vakti</a>
-          </div>
+    <div class="col text-center m-3">
+      <div class="card h-100">
+        <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/042.webp" class="card-img-top" alt="Palm Springs Road"/>
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a short card.</p>
+          <a href="#" class="btn btn-dark">Go somewhere</a>
         </div>
       </div>
-
+    </div>
+    <div class="col text-center m-3">
+      <div class="card h-100">
+        <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/043.webp" class="card-img-top" alt="Los Angeles Skyscrapers"/>
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="btn btn-dark">Go somewhere</a>
+        </div>
+      </div>
+    </div>
   </div>
+
 <!--/Container-->
 
 
@@ -212,31 +178,27 @@ Slider-->
 <footer class="text-center text-lg-start bg-light text-muted">
     <!-- Section: Social media -->
     <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-
-      <div class="me-5 d-none d-lg-block">
-        <span>Get connected with us on social networks:</span>
+      <div class="me-5 p-2 d-none d-lg-block">
+        <span><h4>Get connected with us on social networks:</h4></span>
       </div>
 
       <div>
-        <a href="https://www.instagram.com/rrunasin/" style="text-decoration: none; color: black;"> <i class="fa-brands fa-instagram fa-xl"></i></a>
-        <a href="https://www.linkedin.com/in/nisa-nur-a%C3%A7%C4%B1kg%C3%B6z-4366a7271/" style="text-decoration: none; color: black;"> <i class="fa-brands fa-linkedin fa-xl"></i></a>
-        <a href="mailto:nacikgoz4745@gmail.com" style="text-decoration: none; color: black;"><i class="fa-solid fa-envelope fa-xl"></i></a>
-        <a href="https://github.com/runasin" style="text-decoration: none; color: black;"><i class="fa-brands fa-github fa-xl"></i></a>
-        
+        <a href="https://www.instagram.com/rrunasin/" class="btn btn-lg btn-outline-dark" style="text-decoration: none; "> <i class="fa-brands fa-instagram fa-xl"></i></a>
+        <a href="https://www.linkedin.com/in/runasin/" class="btn btn-lg btn-outline-dark" style="text-decoration: none; "> <i class="fa-brands fa-linkedin fa-xl"></i></a>
+        <a href="mailto:nacikgoz4745@gmail.com" class="btn btn-lg btn-outline-dark" style="text-decoration: none; ;"><i class="fa-solid fa-envelope fa-xl"></i></a>
+        <a href="https://github.com/runasin" class="btn btn-lg btn-outline-dark" style="text-decoration: none; "><i class="fa-brands fa-github fa-xl"></i></a>
       </div>
     </section>
-    <!-- Section: Social media right -->
-  
-    
-  
+    <!-- /Section: Social media right -->
+
     <!-- Copyright -->
     <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
       © 2023 Copyright:
-      <a class="text-reset fw-bold" href="">runasin</a>
+      <a class="text-reset fw-bold" href="https://github.com/runasin">runasin</a>
     </div>
-    <!-- Copyright -->
+    <!--/Copyright -->
   </footer>
-  <!-- Footer -->
+  <!--/Footer -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>
